@@ -232,6 +232,9 @@ body {
   body strong {
     font-weight: 700; }
 
+.col-md-8 {
+  margin: -50px 0px 0px 0px; }
+
 article p {
   hyphens: auto;
   -moz-hyphens: auto;
@@ -288,15 +291,21 @@ article pre, article code, article aside {
   text-rendering: optimizeLegibility;
   background-color: #ebebeb;
   font-family: "Merriweather", Georgia, Times, "Times New Roman", serif;
+  font-style: oblique;
   font-size: 10.4pt;
   font-weight: 400;
   color: #404040; }
+article b {
+  text-align: center; }
 article pre, article aside {
-  padding: 1em;
-  margin: 5px;
-  border: 1px solid black;
-  padding-left: 1em;
-  border-radius: 20px; }
+  margin: 40px 120px;
+  padding: 0px 20px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-radius: 20px;
+  border: 1px solid black; }
 article :not(pre) > code {
   color: #c72323;
   font-family: "Merriweather", Georgia, Times, "Times New Roman", serif;

@@ -8,7 +8,6 @@ body {
   background: url("../images/bg.png")
 
 }
-
 .container {
   background: #ffe;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -108,13 +107,24 @@ a.page-link:hover {
 /*   font-size: 1em; */
 /* } */
 
+.first-letter {
+  color: #ad1f1f;
+  float: left;
+  font-size: 3.4em;
+  line-height: .7em;
+  font-style: normal;
+  font-weight: bold;
+  margin: -.12em .15em 0 -.2em;
+}
+
 blockquote {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  border-left: 2pt solid $alt-color;
-  padding-left: .9em;
-  margin-left: -1em;
+  /* margin-top: 1em; */
+  /* margin-bottom: 50em; */
+  /* border-left: 2pt solid $alt-color; */
+  /* padding-left: .10em; */
+  /* margin-left: 14em; */
   font-style: oblique;
+
 
   last-child {
     margin-bottom: 0;
@@ -128,6 +138,15 @@ blockquote {
   em {
     font-style: normal;
   }
+
+  /* p { */
+  /*     hyphens: auto; */
+  /*     -moz-hyphens: auto; */
+  /*     -webkit-hyphens: auto; */
+  /*     -ms-hyphens: auto; */
+  /*   } */
+
+
 }
 
 h1 {
@@ -178,12 +197,14 @@ h3 {
 
 /* code blocks */
 .highlight, blockquote {
-  margin: 40px 0px;
+  margin: 40px -15px;
   padding: 0px 20px;
   border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
 }
 
-/* footer */
 footer {
   margin-top: 100px;
   text-align: center;
