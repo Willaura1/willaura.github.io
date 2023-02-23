@@ -3,4 +3,4 @@ Disallow: /.bundle/
 Disallow: /.gitignore
 Allow: /
 
-Sitemap: https://younes.cf
+Sitemap: https://yanobenel.cf
